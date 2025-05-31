@@ -1,0 +1,28 @@
+body {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    /* background: linear-gradient(135deg, #8eebf2 0%, #64a2f9 100%); */
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('./assets/background.png');
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-app-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.weather-app-container h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #e7a1a1;
+    margin-bottom: 2px solid #fff;
+    text-shadow: 1px 2px 4px rgba(11, 8, 8, 0.2);
+}

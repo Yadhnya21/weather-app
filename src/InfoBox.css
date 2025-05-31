@@ -1,0 +1,38 @@
+.InfoBox {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container .box {
+    max-width: 400px;
+    width: 90%;
+    border-radius: 20px;
+    background: rgba(57, 39, 39, 0.15);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(97, 106, 233, 0.37);
+    padding: 2rem 1rem;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.card-container .box:hover {
+    transform: scale(1.03);
+}
+
+.MuiCardContent-root p {
+    margin: 6px 0;
+    color: rgb(13, 13, 19);
+    font-size: 23px;
+    border-bottom: 2px solid rgb(210, 210, 237);
+    font-weight: 520;
+}
+
+.MuiTypography-h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 23px;
+}
